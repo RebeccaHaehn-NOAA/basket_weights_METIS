@@ -1,7 +1,12 @@
-
+## Description: pull basket weights from raw GAP survey tablet files
+## Created by: Rebecca Haehn-Tam (rebecca.haehn@noaa.gov)
+## Edited by:
+## Created on: Nov 2025
+## Updated on: 
+## NOTES: Raw files are located in GAP G drive 
+ 
 
 library(tidyverse)
-library(here) #maynot need
 
 # select METIS_LOAD_CSAMP_HAUL#.txt file
 if (requireNamespace("rstudioapi", quietly = TRUE)) {
